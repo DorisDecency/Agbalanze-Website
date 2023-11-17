@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Metal+Mania&family=Open+Sans&display=swap');
+/* COLOURS
+aquamarine
+#FF5003
+#021527 
+#de6600
+#fea02f
+#ebd9c8
+#007a7a
+#003f5a */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* background-image: url("../Agbalanze\ Photos/HomeBackground.png");
+    background-size: cover; */
+    width: 100%;
+    background: #007a7a url(../Agbalanze\ Photos/Azuzu.png);
+    background-repeat: no-repeat;
+    background-position: 68em 5em;
+    background-size: 20%;
+}
+header{
+    display: flex;
+    width: 100%;
+    background-color: #de6600;
+    padding: 4px;
+}
+nav {
+    position: relative;
+    left: 45%;
+    padding-top: 10px;
+}
+.b{
+    text-decoration: none;
+    color: #007a7a;
+}
+.top1, .top2 {
+    border: 1px solid #007a7a;
+    border-radius: 30px;
+    background-color: #ebd9c8;
+}
+.top1 {
+    padding: 4px 10px;
+    
+}
+.top2 {
+    padding: 4px 22px;
+}
+.logo-image {
+    width: 40px;
+    height: 40px;
+    margin-left: 450px;
+}
+main{
+    
+    text-align: left;
+    margin: 40px;
+    display: flex;
+}
+h1 {
+    color: #fea02f;
+    font-size: 95px;
+    padding: 20px 0;
+    -webkit-text-stroke: 1px red;
+    font-family: "Big Shoulders Display";
+}
+.theP {
+    color: aliceblue;
+    font-weight: 700;
+    padding: 20px 0;
+}
+hr {
+    width: 485px;
+    height: 2px;
+}
+marquee {
+    margin-left: 6px;
+}
+.para {
+    margin: 20px 0px 20px 0;
+}
+.Registration {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.c:hover {
+    background-image: linear-gradient(to bottom, rgba(0, 63, 90, 0), rgba(0, 63, 90, 1));
+    border: 0.2px solid rgb(221, 189, 189);
+}
+.c {
+    background-image: linear-gradient(to bottom, rgba(0, 63, 90, 1), rgba(0, 63, 90, 0));
+    text-decoration: none;
+    color: #ebd9c8;
+    padding: 20px 50px 50px 50px;
+}
+.sub {
+    margin-left: 150px;
+}
+.page2 .A1 {
+    position: absolute;
+    width: 300px;
+    top: 300px;
+    right: 100px;
+}
+.page2 .A2 {
+    height: 550px;
+    position: absolute;
+    top: 50px;
+}
+.page2 .A3 {
+    position: absolute;
+    width: 100px;
+    right: 280px;
+    top: 200px;
+}

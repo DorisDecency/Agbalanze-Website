@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <div class="top"><h1>Registration Form</h1></div>
+    </header>
+    <main>
+        <img class="pic" src="/Agbalanze Photos/Logo Removed.png" alt="Agbalanze Logo">
+        <div class="container">
+            <form action="get">
+                <div class="personal"> 
+                    <h3>Personal Data</h3>
+                    <label for="Surname">Surname: <input type="text"></label>
+                    <label for="Other_name">Other names: <input type="text"></label>
+                    <label for="date_of_birth">Date of Birth: <input type="date"></label>
+                    <label for="gender" name="gender">gender
+                        <select name="gender" id="gender">
+                            <option value=""></option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </label>
+                    <label for="address">Address: <input type="text"></label>
+                    <label for="phone_no">Phone Number: <input type="number"></label>
+                    <label for="email">E-mail: <input type="text"></label>
+                </div>
+                <div class="qualification">
+                    <h3>Assesment</h3>
+                    <label for="village">village: <input type="text"></label>
+                    <label for="kindred">Kindred: <input type="text"></label>
+                    <label for="AcadQ">Highest Educational Qualification
+                        <select name="AcadQ"" id="AcadQ">
+                            <option value="none">None</option>
+                            <option value="FSL">First school leaving</option>
+                            <option value="olevel">O-level</option>
+                            <option value="ond">OND</option>
+                            <option value="hnd">HND</option>
+                            <option value="BD">Bachelor Degree</option>
+                            <option value="Masters">Masters Degree</option>
+                            <option value="phd">PHD</option>
+                        </select>
+                    </label>
+                    <label for="how">How did you hear about us? <input type="text" name="how" id="how"></label>
+                    <label for="why">Briefly explain why you need the Scholarship</label>
+                    <textarea name="why" id="why" cols="20" rows="3"></textarea>
+                    <label for="why">How do others benefit from you?</label>
+                    <textarea name="why" id="why" cols="20" rows="3"></textarea>
+                </div>
+            </form>
+            <div class="submit">
+                <button>Submit</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
