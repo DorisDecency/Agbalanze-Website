@@ -15,10 +15,10 @@ aquamarine
     box-sizing: border-box;
 }
 body {
-    /* background-image: url("../Agbalanze\ Photos/HomeBackground.png");
+    /* background-image: url("./Agbalanze\ Photos/HomeBackground.png");
     background-size: cover; */
     width: 100%;
-    background: #007a7a url(../Agbalanze\ Photos/Azuzu.png);
+    background: #007a7a url(./Agbalanze\ Photos/Azuzu.png);
     background-repeat: no-repeat;
     background-position: 68em 5em;
     background-size: 20%;
